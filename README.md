@@ -5,7 +5,7 @@ and painful debugging.
 <br/>
 
 ## Hareware Requirements
-* Basys 3<sub>TM</sub> FPGA Board
+* Basys 3<sup>TM</sup> FPGA Board
 * PmodMIC3
 * PmodDA2
 * PmodAMP2
