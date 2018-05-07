@@ -1,7 +1,7 @@
 # EE2026 FPGA Design Project
 
-> This module is all about CLOCK and endless simulation, synthesis, implementation and writing bitstream on Vivaldo.
-> AND painful debugging.
+This module is all about CLOCK and endless simulation, synthesis, implementation and writing bitstream on Vivaldo.
+AND painful debugging.
 
 ## Hareware Requirements
 * Basys 3<sub>TM</sub> FPGA Board
