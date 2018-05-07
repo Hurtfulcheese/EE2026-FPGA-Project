@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1523116344">
+  <File Type="PA-TCL" Name="AUDIO_FX_TOP.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="AUDIO_FX_TOP_drc_synth.rpt"/>
+  <File Type="RDS-RDS" Name="AUDIO_FX_TOP.vds"/>
+  <File Type="RDS-UTIL" Name="AUDIO_FX_TOP_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="AUDIO_FX_TOP_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="AUDIO_FX_TOP.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="AUDIO_FX_TOP_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="AUDIO_FX_TOP_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/new/note_gen.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../Adrian_3_Apr/adrian_29_mar/audio_effects/audio_effects.srcs/sources_1/new/note_gen.v"/>
+        <Attr Name="ImportTime" Val="1522303870"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/get_clock_2Hz.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../Adrian_3_Apr/audio_effects/audio_effects.srcs/sources_1/new/get_clock_2Hz.v"/>
+        <Attr Name="ImportTime" Val="1523091388"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/gen_delay3.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../Adrian_3_Apr/audio_effects/audio_effects.srcs/sources_1/new/gen_delay3.v"/>
+        <Attr Name="ImportTime" Val="1522593694"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/gen_delay2.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../Adrian_3_Apr/audio_effects/audio_effects.srcs/sources_1/new/gen_delay2.v"/>
+        <Attr Name="ImportTime" Val="1522593694"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/vga_sync.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../7th_Apr/7th_Apr.srcs/sources_1/new/vga_sync.v"/>
+        <Attr Name="ImportTime" Val="1523107321"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/music_instrument.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../Adrian_3_Apr/adrian_29_mar/audio_effects/audio_effects.srcs/sources_1/new/music_instrument.v"/>
+        <Attr Name="ImportTime" Val="1522301396"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/vga_pong.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../7th_Apr/7th_Apr.srcs/sources_1/new/vga_pong.v"/>
+        <Attr Name="ImportTime" Val="1523111095"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/SSD.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="E:/Vivado_Projects/audio_effects/audio_effects.srcs/sources_1/new/SSD.v"/>
+        <Attr Name="ImportTime" Val="1522744462"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/A_delay.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../Adrian_3_Apr/audio_effects/audio_effects.srcs/sources_1/new/A_delay.v"/>
+        <Attr Name="ImportTime" Val="1523094093"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/SPI.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../EE2020 EE2026 AY1718 SEM 1/audio_effects.srcs/sources_1/new/SPI.v"/>
+        <Attr Name="ImportTime" Val="1507284396"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/get_clock_50M.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../Adrian_3_Apr/audio_effects/audio_effects.srcs/sources_1/new/get_clock_50M.v"/>
+        <Attr Name="ImportTime" Val="1521781898"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/get_clock_20k.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../Adrian_3_Apr/audio_effects/audio_effects.srcs/sources_1/new/get_clock_20k.v"/>
+        <Attr Name="ImportTime" Val="1521782664"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/audio_effects.srcs/DA2CompRef.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../EE2020 EE2026 AY1718 SEM 1/audio_effects.srcs/DA2CompRef.vhd"/>
+        <Attr Name="ImportTime" Val="1506565364"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/AUDIO_FX_TOP.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../EE2020 EE2026 AY1718 SEM 1/audio_effects.srcs/sources_1/new/AUDIO_FX_TOP.v"/>
+        <Attr Name="ImportTime" Val="1507284394"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/SSD2.v">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../7th_Apr/7th_Apr.srcs/sources_1/new/SSD2.v"/>
+        <Attr Name="ImportTime" Val="1523110665"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/gen_delay.v">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../Adrian_3_Apr/audio_effects/audio_effects.srcs/sources_1/new/gen_delay.v"/>
+        <Attr Name="ImportTime" Val="1523092418"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/test.v">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../Adrian_3_Apr/audio_effects/audio_effects.srcs/sources_1/new/test.v"/>
+        <Attr Name="ImportTime" Val="1523090721"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/A_delay_echo.v">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../Adrian_3_Apr/audio_effects/audio_effects.srcs/sources_1/new/A_delay_echo.v"/>
+        <Attr Name="ImportTime" Val="1522311244"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/audio_effects/archive_project_summary.txt">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../EE2020 EE2026 AY1718 SEM 1/Project Dev/jieyi_6oct/audio_effects/audio_effects/archive_project_summary.txt"/>
+        <Attr Name="ImportTime" Val="1507296476"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../../../../../../Adrian_3_Apr/audio_effects/archive_project_summary.txt"/>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="AUDIO_FX_TOP"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/Learn/Basys3_Master.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../Learn/Basys3_Master.xdc"/>
+        <Attr Name="ImportTime" Val="1490081536"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/imports/Learn/Basys3_Master.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2014"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

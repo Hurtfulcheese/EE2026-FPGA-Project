@@ -1,0 +1,4 @@
+ERROR: Exception caught trying to open file C:\Users\Lynn Mkka\Desktop\EE2026\EE2026_Project_Template2.xpr\audio_effects\audio_effects.runs\synth_1/runme.log
+	Exception name: Error
+	Exception error code: 70
+	Exception message: Permission denied

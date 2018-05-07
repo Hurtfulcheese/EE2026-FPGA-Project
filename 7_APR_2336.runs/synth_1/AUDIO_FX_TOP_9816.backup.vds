@@ -1,0 +1,262 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Thu Mar 29 15:53:16 2018
+# Process ID: 9816
+# Current directory: C:/Users/Lynn Mkka/Desktop/EE2026/EE2026_Project_Template2.xpr/audio_effects/audio_effects.runs/synth_1
+# Command line: vivado.exe -log AUDIO_FX_TOP.vds -mode batch -messageDb vivado.pb -notrace -source AUDIO_FX_TOP.tcl
+# Log file: C:/Users/Lynn Mkka/Desktop/EE2026/EE2026_Project_Template2.xpr/audio_effects/audio_effects.runs/synth_1/AUDIO_FX_TOP.vds
+# Journal file: C:/Users/Lynn Mkka/Desktop/EE2026/EE2026_Project_Template2.xpr/audio_effects/audio_effects.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source AUDIO_FX_TOP.tcl -notrace
+Command: synth_design -top AUDIO_FX_TOP -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 8464 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 273.789 ; gain = 66.383
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'AUDIO_FX_TOP' [C:/Users/Lynn Mkka/Desktop/EE2026/EE2026_Project_Template2.xpr/audio_effects/audio_effects.srcs/sources_1/new/AUDIO_FX_TOP.v:14]
+INFO: [Synth 8-638] synthesizing module 'get_clock_20k' [C:/Users/Lynn Mkka/Desktop/EE2026/EE2026_Project_Template2.xpr/audio_effects/audio_effects.srcs/sources_1/new/get_clock_20k.v:23]
+INFO: [Synth 8-256] done synthesizing module 'get_clock_20k' (1#1) [C:/Users/Lynn Mkka/Desktop/EE2026/EE2026_Project_Template2.xpr/audio_effects/audio_effects.srcs/sources_1/new/get_clock_20k.v:23]
+INFO: [Synth 8-638] synthesizing module 'get_clock_50M' [C:/Users/Lynn Mkka/Desktop/EE2026/EE2026_Project_Template2.xpr/audio_effects/audio_effects.srcs/sources_1/new/get_clock_50M.v:23]
+INFO: [Synth 8-256] done synthesizing module 'get_clock_50M' (2#1) [C:/Users/Lynn Mkka/Desktop/EE2026/EE2026_Project_Template2.xpr/audio_effects/audio_effects.srcs/sources_1/new/get_clock_50M.v:23]
+INFO: [Synth 8-638] synthesizing module 'SPI' [C:/Users/Lynn Mkka/Desktop/EE2026/EE2026_Project_Template2.xpr/audio_effects/audio_effects.srcs/sources_1/new/SPI.v:20]
+INFO: [Synth 8-256] done synthesizing module 'SPI' (3#1) [C:/Users/Lynn Mkka/Desktop/EE2026/EE2026_Project_Template2.xpr/audio_effects/audio_effects.srcs/sources_1/new/SPI.v:20]
+INFO: [Synth 8-638] synthesizing module 'A_delay' [C:/Users/Lynn Mkka/Desktop/EE2026/EE2026_Project_Template2.xpr/audio_effects/audio_effects.srcs/sources_1/new/A_delay.v:23]
+INFO: [Synth 8-256] done synthesizing module 'A_delay' (4#1) [C:/Users/Lynn Mkka/Desktop/EE2026/EE2026_Project_Template2.xpr/audio_effects/audio_effects.srcs/sources_1/new/A_delay.v:23]
+INFO: [Synth 8-638] synthesizing module 'A_delay_echo' [C:/Users/Lynn Mkka/Desktop/EE2026/EE2026_Project_Template2.xpr/audio_effects/audio_effects.srcs/sources_1/new/A_delay_echo.v:23]
+
+Warning: Trying to implement RAM in registers. Block RAM or DRAM implementation is not possible for one or more of the following reasons :
+	1: Invalid write to RAM. 
+	2: Unable to determine number of words or word size in RAM. 
+	3: No valid read/write found for RAM. 
+RAM dissolved into registers
+WARNING: [Synth 8-4767] Trying to implement RAM 'memory_reg' in registers. Block RAM or DRAM implementation is not possible; see log for reasons.
+Reason is one or more of the following :
+	1: Invalid write to RAM. 
+	2: Unable to determine number of words or word size in RAM. 
+	3: No valid read/write found for RAM. 
+RAM "memory_reg" dissolved into registers
+INFO: [Synth 8-256] done synthesizing module 'A_delay_echo' (5#1) [C:/Users/Lynn Mkka/Desktop/EE2026/EE2026_Project_Template2.xpr/audio_effects/audio_effects.srcs/sources_1/new/A_delay_echo.v:23]
+WARNING: [Synth 8-689] width (12) of port connection 'data_in1' does not match port width (1) of module 'A_delay_echo' [C:/Users/Lynn Mkka/Desktop/EE2026/EE2026_Project_Template2.xpr/audio_effects/audio_effects.srcs/sources_1/new/AUDIO_FX_TOP.v:57]
+WARNING: [Synth 8-689] width (12) of port connection 'data_in2' does not match port width (1) of module 'A_delay_echo' [C:/Users/Lynn Mkka/Desktop/EE2026/EE2026_Project_Template2.xpr/audio_effects/audio_effects.srcs/sources_1/new/AUDIO_FX_TOP.v:57]
+WARNING: [Synth 8-689] width (12) of port connection 'data_out' does not match port width (1) of module 'A_delay_echo' [C:/Users/Lynn Mkka/Desktop/EE2026/EE2026_Project_Template2.xpr/audio_effects/audio_effects.srcs/sources_1/new/AUDIO_FX_TOP.v:57]
+WARNING: [Synth 8-567] referenced signal 'MIC_in' should be on the sensitivity list [C:/Users/Lynn Mkka/Desktop/EE2026/EE2026_Project_Template2.xpr/audio_effects/audio_effects.srcs/sources_1/new/AUDIO_FX_TOP.v:70]
+WARNING: [Synth 8-567] referenced signal 'new_pitch_shift' should be on the sensitivity list [C:/Users/Lynn Mkka/Desktop/EE2026/EE2026_Project_Template2.xpr/audio_effects/audio_effects.srcs/sources_1/new/AUDIO_FX_TOP.v:70]
+WARNING: [Synth 8-567] referenced signal 'music' should be on the sensitivity list [C:/Users/Lynn Mkka/Desktop/EE2026/EE2026_Project_Template2.xpr/audio_effects/audio_effects.srcs/sources_1/new/AUDIO_FX_TOP.v:70]
+WARNING: [Synth 8-567] referenced signal 'extra_feature' should be on the sensitivity list [C:/Users/Lynn Mkka/Desktop/EE2026/EE2026_Project_Template2.xpr/audio_effects/audio_effects.srcs/sources_1/new/AUDIO_FX_TOP.v:70]
+INFO: [Synth 8-638] synthesizing module 'DA2RefComp' [C:/Users/Lynn Mkka/Desktop/EE2026/EE2026_Project_Template2.xpr/audio_effects/audio_effects.srcs/sources_1/imports/audio_effects.srcs/DA2CompRef.vhd:59]
+INFO: [Synth 8-256] done synthesizing module 'DA2RefComp' (6#1) [C:/Users/Lynn Mkka/Desktop/EE2026/EE2026_Project_Template2.xpr/audio_effects/audio_effects.srcs/sources_1/imports/audio_effects.srcs/DA2CompRef.vhd:59]
+WARNING: [Synth 8-3848] Net music in module/entity AUDIO_FX_TOP does not have driver. [C:/Users/Lynn Mkka/Desktop/EE2026/EE2026_Project_Template2.xpr/audio_effects/audio_effects.srcs/sources_1/new/AUDIO_FX_TOP.v:63]
+WARNING: [Synth 8-3848] Net extra_feature in module/entity AUDIO_FX_TOP does not have driver. [C:/Users/Lynn Mkka/Desktop/EE2026/EE2026_Project_Template2.xpr/audio_effects/audio_effects.srcs/sources_1/new/AUDIO_FX_TOP.v:64]
+INFO: [Synth 8-256] done synthesizing module 'AUDIO_FX_TOP' (7#1) [C:/Users/Lynn Mkka/Desktop/EE2026/EE2026_Project_Template2.xpr/audio_effects/audio_effects.srcs/sources_1/new/AUDIO_FX_TOP.v:14]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:01:03 ; elapsed = 00:01:11 . Memory (MB): peak = 1207.242 ; gain = 999.836
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+WARNING: [Synth 8-3295] tying undriven pin u2:DATA2[11] to constant 0 [C:/Users/Lynn Mkka/Desktop/EE2026/EE2026_Project_Template2.xpr/audio_effects/audio_effects.srcs/sources_1/new/AUDIO_FX_TOP.v:80]
+WARNING: [Synth 8-3295] tying undriven pin u2:DATA2[10] to constant 0 [C:/Users/Lynn Mkka/Desktop/EE2026/EE2026_Project_Template2.xpr/audio_effects/audio_effects.srcs/sources_1/new/AUDIO_FX_TOP.v:80]
+WARNING: [Synth 8-3295] tying undriven pin u2:DATA2[9] to constant 0 [C:/Users/Lynn Mkka/Desktop/EE2026/EE2026_Project_Template2.xpr/audio_effects/audio_effects.srcs/sources_1/new/AUDIO_FX_TOP.v:80]
+WARNING: [Synth 8-3295] tying undriven pin u2:DATA2[8] to constant 0 [C:/Users/Lynn Mkka/Desktop/EE2026/EE2026_Project_Template2.xpr/audio_effects/audio_effects.srcs/sources_1/new/AUDIO_FX_TOP.v:80]
+WARNING: [Synth 8-3295] tying undriven pin u2:DATA2[7] to constant 0 [C:/Users/Lynn Mkka/Desktop/EE2026/EE2026_Project_Template2.xpr/audio_effects/audio_effects.srcs/sources_1/new/AUDIO_FX_TOP.v:80]
+WARNING: [Synth 8-3295] tying undriven pin u2:DATA2[6] to constant 0 [C:/Users/Lynn Mkka/Desktop/EE2026/EE2026_Project_Template2.xpr/audio_effects/audio_effects.srcs/sources_1/new/AUDIO_FX_TOP.v:80]
+WARNING: [Synth 8-3295] tying undriven pin u2:DATA2[5] to constant 0 [C:/Users/Lynn Mkka/Desktop/EE2026/EE2026_Project_Template2.xpr/audio_effects/audio_effects.srcs/sources_1/new/AUDIO_FX_TOP.v:80]
+WARNING: [Synth 8-3295] tying undriven pin u2:DATA2[4] to constant 0 [C:/Users/Lynn Mkka/Desktop/EE2026/EE2026_Project_Template2.xpr/audio_effects/audio_effects.srcs/sources_1/new/AUDIO_FX_TOP.v:80]
+WARNING: [Synth 8-3295] tying undriven pin u2:DATA2[3] to constant 0 [C:/Users/Lynn Mkka/Desktop/EE2026/EE2026_Project_Template2.xpr/audio_effects/audio_effects.srcs/sources_1/new/AUDIO_FX_TOP.v:80]
+WARNING: [Synth 8-3295] tying undriven pin u2:DATA2[2] to constant 0 [C:/Users/Lynn Mkka/Desktop/EE2026/EE2026_Project_Template2.xpr/audio_effects/audio_effects.srcs/sources_1/new/AUDIO_FX_TOP.v:80]
+WARNING: [Synth 8-3295] tying undriven pin u2:DATA2[1] to constant 0 [C:/Users/Lynn Mkka/Desktop/EE2026/EE2026_Project_Template2.xpr/audio_effects/audio_effects.srcs/sources_1/new/AUDIO_FX_TOP.v:80]
+WARNING: [Synth 8-3295] tying undriven pin u2:DATA2[0] to constant 0 [C:/Users/Lynn Mkka/Desktop/EE2026/EE2026_Project_Template2.xpr/audio_effects/audio_effects.srcs/sources_1/new/AUDIO_FX_TOP.v:80]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:01:17 ; elapsed = 00:01:26 . Memory (MB): peak = 1207.242 ; gain = 999.836
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/Lynn Mkka/Desktop/EE2026/EE2026_Project_Template2.xpr/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc]
+Finished Parsing XDC File [C:/Users/Lynn Mkka/Desktop/EE2026/EE2026_Project_Template2.xpr/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/Lynn Mkka/Desktop/EE2026/EE2026_Project_Template2.xpr/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/AUDIO_FX_TOP_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/AUDIO_FX_TOP_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.031 . Memory (MB): peak = 1352.000 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:01:45 ; elapsed = 00:01:55 . Memory (MB): peak = 1352.000 ; gain = 1144.594
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:01:45 ; elapsed = 00:01:55 . Memory (MB): peak = 1352.000 ; gain = 1144.594
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:01:45 ; elapsed = 00:01:55 . Memory (MB): peak = 1352.000 ; gain = 1144.594
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "p_0_in" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'DA2RefComp'
+INFO: [Synth 8-5544] ROM "DONE" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |                               00 |                               00
+                shiftout |                               01 |                               01
+                syncdata |                               10 |                               10
+                  iSTATE |                               11 |                               11
+*
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'current_state_reg' using encoding 'sequential' in module 'DA2RefComp'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:09:13 ; elapsed = 00:10:38 . Memory (MB): peak = 2375.242 ; gain = 2167.836
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+-------------------+------------+----------+
+|      |RTL Partition      |Replication |Instances |
++------+-------------------+------------+----------+
+|1     |muxpart__16386     |           1|    180224|
+|2     |A_delay_echo__GB1  |           1|     17321|
+|3     |A_delay_echo__GB2  |           1|     42802|
+|4     |A_delay_echo__GB3  |           1|     26301|
+|5     |A_delay_echo__GB4  |           1|     26091|
+|6     |muxpart__32771     |           1|    180224|
+|7     |A_delay_echo__GB6  |           1|        20|
+|8     |A_delay_echo__GB7  |           1|     27944|
+|9     |A_delay_echo__GB8  |           1|     43567|
+|10    |A_delay_echo__GB9  |           1|     33648|
+|11    |A_delay_echo__GB10 |           1|     33751|
+|12    |A_delay_echo__GB11 |           1|     33857|
+|13    |A_delay_echo__GB12 |           1|     33711|
+|14    |A_delay_echo__GB13 |           1|     39044|
+|15    |A_delay_echo__GB14 |           1|     40039|
+|16    |A_delay_echo__GB15 |           1|     40213|
+|17    |A_delay_echo__GB16 |           1|     39674|
+|18    |A_delay_echo__GB17 |           1|     49093|
+|19    |A_delay_echo__GB18 |           1|     49102|
+|20    |A_delay_echo__GB19 |           1|     49239|
+|21    |A_delay_echo__GB20 |           1|     48951|
+|22    |AUDIO_FX_TOP__GC0  |           1|      1504|
++------+-------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     25 Bit       Adders := 3     
+	   2 Input     14 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
+	   2 Input      1 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 2     
+	               12 Bit    Registers := 3     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 16389 
++---RAMs : 
+	             192K Bit         RAMs := 1     
++---Muxes : 
+	   2 Input  16384 Bit        Muxes := 2     
+	   2 Input     25 Bit        Muxes := 3     
+	   2 Input     16 Bit        Muxes := 2     
+	   4 Input     12 Bit        Muxes := 1     
+	   5 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 32771 
+	   3 Input      1 Bit        Muxes := 2     
+	   4 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module AUDIO_FX_TOP 
+Detailed RTL Component Info : 
++---Registers : 
+	               12 Bit    Registers := 1     
++---Muxes : 
+	   4 Input     12 Bit        Muxes := 1     
+Module A_delay_echo 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     25 Bit       Adders := 2     
++---Registers : 
+	                1 Bit    Registers := 16385 
++---Muxes : 
+	   2 Input  16384 Bit        Muxes := 2     
+	   2 Input     25 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 32768 
+Module get_clock_20k 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module get_clock_50M 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      1 Bit       Adders := 1     
++---Registers : 
+	                1 Bit    Registers := 2     
+Module SPI 
+Detailed RTL Component Info : 
++---Registers : 
+	               12 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
+Module A_delay 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     25 Bit       Adders := 1     
+	   2 Input     14 Bit       Adders := 1     
++---Registers : 
+	               12 Bit    Registers := 1     
++---RAMs : 
+	             192K Bit         RAMs := 1     
++---Muxes : 
+	   2 Input     25 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module DA2RefComp 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 2     
+	                4 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 2     
+	   5 Input      2 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 2     
+	   4 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5580] Multithreading enabled for synth_design using a maximum of 2 processes.
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:10:03 ; elapsed = 00:11:28 . Memory (MB): peak = 2375.242 ; gain = 2167.836
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "a1/p_0_in" won't be mapped to RAM because it is too sparse
